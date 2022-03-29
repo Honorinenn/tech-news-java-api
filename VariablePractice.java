@@ -3,3 +3,8 @@ public class VariablePractice {
 
     }
 }
+public class VariablePractice {
+    public static void main(double[] args) {
+
+    }
+}
