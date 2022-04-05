@@ -17,4 +17,8 @@ public class User {
     private List<Vote> votes;
     private List<Comment> comments;
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private Integer id;
 }
+
