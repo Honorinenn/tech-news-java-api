@@ -4,11 +4,8 @@ public class Demo {
     private String name;
     private int age;
 
-    public Demo(String name) {
+    public Demo(String name, int age) {
         this.name = name;
-    }
-
-    public Demo(int age) {
         this.age = age;
     }
 
