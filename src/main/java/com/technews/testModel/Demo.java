@@ -12,6 +12,5 @@ public class Demo {
         this.age = age;
     }
 
-    public Demo() {
-    }
+
 }
