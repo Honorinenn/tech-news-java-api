@@ -22,5 +22,7 @@ public class User {
     private Integer id;
     @Column(unique = true)
     private String email;
+    @Transient
+    boolean loggedIn;
 }
 
