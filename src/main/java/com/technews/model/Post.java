@@ -24,4 +24,14 @@ public class Post {
     private String userName;
     @Transient
     private int voteCount;
+
+    @NotNull
+    @Temporal(TemporalType.DATE)
+    @Column(name = "posted_at")
+    private Date postedAt = new Date();
+
+    @NotNull
+    @Temporal(TemporalType.DATE)
+    @Column(name = "updated_at")
+    private Date updatedAt = new Date();
 }
