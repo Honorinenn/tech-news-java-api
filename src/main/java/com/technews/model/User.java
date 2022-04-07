@@ -13,6 +13,7 @@ public class User {
     private String email;
     private String password;
     boolean loggedIn;
+    @OneToMany(mappedBy = "userId", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     private List<Post> posts;
     private List<Vote> votes;
     private List<Comment> comments;
