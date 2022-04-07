@@ -20,4 +20,8 @@ public class Post {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer id;
+    @Transient
+    private String userName;
+    @Transient
+    private int voteCount;
 }
