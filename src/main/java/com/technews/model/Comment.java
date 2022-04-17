@@ -1,4 +1,7 @@
 package com.technews.model;
+@Entity
+@JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
+@Table(name = "comment")
 
 public class Comment {
     private Integer id;
