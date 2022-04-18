@@ -7,5 +7,9 @@ private Integer postId;
 @JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
 @Table(name = "vote")
 
+@Id
+@GeneratedValue(strategy = GenerationType.AUTO)
+private Integer id;
+
 public class Vote {
 }
