@@ -36,4 +36,13 @@ public class HomePageController {
         model.addAttribute("user", new User());
         return "login";
     }
+
+    @GetMapping("/users/logout")
+    public String logout(HttpServletRequest request) {
+        if (request.getSession(false) != null) {
+            request.getSession().invalidate();
+        }
+        return "redirect:/login";
+    }
+
 }
