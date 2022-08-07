@@ -16,7 +16,7 @@ The tech-news-java-api application makes use of the Spring Boot MVC paradigm.
 To install this application on your local computer you would need to have at Java 8 installed in your computer.
 
 ## Usage
-You can
+<img width="949" alt="tech-news1" src="https://user-images.githubusercontent.com/87605893/183290219-d2a7e069-44bf-4cd2-ba45-34131f3de94b.png">
 
 ## License
 MIT License
