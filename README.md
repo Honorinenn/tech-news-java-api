@@ -1,6 +1,6 @@
 # tech-news-java-api 
 
-The tech-news-java-api application makes use of the SpringBoot MVC paradigm.
+The tech-news-java-api application makes use of the Spring Boot MVC paradigm.
 
 ![License badge](https://img.shields.io/badge/license-MIT-builtinModules.svg)
      
