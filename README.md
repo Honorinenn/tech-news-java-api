@@ -18,6 +18,8 @@ To install this application on your local computer you would need to have at Jav
 ## Usage
 <img width="949" alt="tech-news1" src="https://user-images.githubusercontent.com/87605893/183290219-d2a7e069-44bf-4cd2-ba45-34131f3de94b.png">
 
+<img width="956" alt="tech-news2" src="https://user-images.githubusercontent.com/87605893/183291889-9844a9b4-c042-4f7f-8901-4dfc21ae3296.png">
+
 ## License
 MIT License
 
